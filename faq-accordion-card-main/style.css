@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    padding: 145px 0 145px 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: auto;
+    background-color: white;
+    justify-content: center;
+    width: 75%;
+    height: 500px;
+    border: hidden;
+    border-radius: 24px;
+    font-family: 'Kumbh Sans', sans-serif;
+    /* gap: 20px; */
+}
+
+.left{
+    position: relative;
+    width: 50%;
+    background: url("./images/bg-pattern-desktop.svg"),
+        url("./images/illustration-woman-online-desktop.svg");
+    background-size: 750px, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -340px, -72px;
+    background-position-y: -203px, top;
+}
+
+.left img.box {
+  position: absolute;
+  top: 177px;
+  left: -92px;
+}
+
+.left img.illustration-woman-mobile,
+.left img.pattern-mobile {
+  display: none;
+}
+#pattern{
+    height: 300px;
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 100px 60px 100px;
+    gap: 20px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+h1{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: hsl(240, 5%, 91%);
+}
+.sct1{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 0;
+}
+.sct1 p{
+    color: hsl(237, 12%, 33%);
+    font-weight: 400;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 210px;
+}
+#line1-par{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+}
+.sct2{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 0;
+    gap: 10px;
+    font-weight: 400;
+}
+#line2-par{
+    color: hsl(240, 6%, 50%);
+    font-weight: 400;
+}
+/* .arrow img {
+  padding: 20px;
+  display: block;
+  font-size: 100px;
+  transition: all 0.4s ease;
+} */
+
+.arrow img:hover {
+  transform: rotateZ(-180deg);
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css" />
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+    <div class="main">
+        <div class="container">
+            <div class="nav">
+                <div class="nav-left">
+                    <div class="nav-title">
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div class="nav-tabs">
+                        <a href="#">Collections</a>
+                        <a href="#">Men</a>
+                        <a href="#">Women</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+
+                <div class="nav-right">
+                    <img src="./images/icon-cart.svg" alt="cart">
+                    <img src="./images/image-avatar.png" alt="avatar" id="avatar">
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="content">
+                <div class="left">
+                    <section class="big-img">
+                        <img src="./images/image-product-1.jpg" alt="product1">
+                    </section>
+                    <section class="small-imgs">
+                        <div class="img-1"><img src="./images/image-product-1.jpg" alt="product1" id="product1"></div>
+                        <img src="./images/image-product-2.jpg" alt="product2" id="product2">
+                        <img src="./images/image-product-3.jpg" alt="product3" id="product3">
+                        <img src="./images/image-product-4.jpg" alt="product4" id="product4">
+                    </section>
+                </div>
+
+                <div class="right">
+                    <section class="right-title">
+                        <p>Sneaker Company</p>
+                    </section>
+                    <section class="right-header">
+                        <h1>Fall Limited Edition <br />Sneakers</h1>
+                    </section>
+                    <section class="right-text">
+                        <p>These low-profile sneakers are your perfect casual wear <br> companion. Featuring a 
+                            durable rubber outer sole, they’ll <br>withstand everything the weather can offer.</p>
+                    </section>
+                    <div class="numbers">
+                        <div class="num-upper">
+                            <div class="num-left"><h1>$125.00</h1></div>
+                            <div class="num-right"><p>50%</p></div>
+                        </div>
+                        <div class="num-lower">
+                            <p><b>$250.00</b></p>
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <section class="bottom-left">
+                            <img src="./images/icon-minus.svg" alt="minus" id="minus">
+                            <p id="minus-text"><b>0</b></p>
+                            <img src="./images/icon-plus.svg" alt="plu">
+                        </section>
+                        <div class="bottom-right">
+                            <button class="btn-cart">
+                                <img src="./images/icon-cart.svg" alt="cart">
+                                <p><b>Add to cart</b></p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

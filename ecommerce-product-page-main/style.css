@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+p{
+    font-size: 16px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    gap: 400px;
+    padding: 20px;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    align-items: center;
+}
+.nav-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    font-weight: 400;
+}
+.nav-tabs a{
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+    font-size: 19px;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+#avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: hidden;
+}
+
+.hr{
+    width: 100%;
+    background-color: hsl(223, 64%, 98%);
+    height: 3px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px 0 20px;
+    width: 90%;
+    /* margin: auto; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+}
+.big-img img{
+    border: hidden;
+    border-radius: 25px;
+    width: 470px;
+    height: 470px;
+}
+.small-imgs{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.small-imgs img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+#product1{
+    background-color: hsl(25, 100%, 94%);
+    opacity: 20%;
+    /* max-width: 100px; */
+    /* max-height: 100px; */
+    margin-bottom: -3px;
+}
+.img-1{
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 15px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    justify-content: space-around;
+    margin: 40px 0 40px 0;
+    /* background-color: blue; */
+    padding-left: 20px;
+}
+.right-title{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+}
+.right-title p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+.right-header h1{
+    font-size: 50px;
+    color: hsl(220, 13%, 13%);
+    font-weight: 700;
+}
+.right-text p{
+    font-size: 16px;
+    color: hsl(219, 9%, 45%);
+    font-weight: 400;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.num-upper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.num-left h1{
+    color: hsl(220, 13%, 13%);
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.num-right{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    border: hidden;
+    border-radius: 7px;
+    padding: 8px;
+    font-weight: bold;
+}
+.num-lower p{
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    font-weight: 400;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(223, 64%, 98%);
+    border: hidden;
+    border-radius: 10px;
+    width: 200px;
+    height: 55px;
+    padding: 15x;
+    align-items: center;
+    justify-content: space-around;
+}
+.bottom-left img{
+    width: 15px;
+    height: 15px;
+}
+#minus{
+    height: 8px;
+}
+#minus-text{
+    font-size: 18px;
+}
+.btn-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    font-weight: 700;
+}
+button{
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    width: 350px;
+    height: 55px;
+    border: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
