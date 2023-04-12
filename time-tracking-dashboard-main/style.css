@@ -1,291 +1,250 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 .main {
-    background-color: hsl(226, 43%, 10%);
-    height: 100vh;
-    padding: 250px;
+  background-color: hsl(226, 43%, 10%);
+  height: 100vh;
+  padding: 250px;
 }
 .content {
-    background-color: hsl(226, 43%, 10%);
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "one two three four" "one five six seven";
-    grid-template-rows: minmax(225px, auto);
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    /* flex-direction: column; */
-    gap: 20px;
-    border-radius: 10px;
-    /* height: 100%; */
-    font-family: 'Rubik', sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "one two three four" "one five six seven";
+  grid-template-rows: minmax(225px, auto);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* flex-direction: column; */
+  gap: 20px;
+  border-radius: 10px;
+  /* height: 100%; */
+  font-family: "Rubik", sans-serif;
 }
-p{
-    font-weight: 300;
-    color: hsl(236, 100%, 87%);
+p {
+  font-weight: 300;
+  color: hsl(236, 100%, 87%);
 }
-.text h1{
-    font-weight: 500;
-    color: white;
+.text h1 {
+  font-weight: 500;
+  color: white;
 }
-.text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.one{
-    grid-area: one;
-    height: 100%;
-    text-align: left;
-    height: 490px;
-    position: relative;
-    margin-top: 10px;
-}
-.one-top{
-    display: flex;
-    flex-direction: column;
-    border-radius: 15px;
-    background-color: hsl(246, 80%, 60%);
-    color: white;
-    padding: 30px 40px 100px 30px;
-    position: relative;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-    gap: 40px;
-    /* bottom: 100px;  */
-}
-.one-below{
-    background-color: hsl(235, 46%, 20%);
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    gap: 15px;
-    margin-top: -10px;
-    padding: 30px 20px 30px 20px;
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* width: fit-content; */
-}
-.one-below a{
-    text-decoration: none;
-    color: hsl(236, 100%, 87%);
-}
-#weekly{
-    color: white;
-}
-.profile img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid white;
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.two{
-    grid-area: two;
-    position: relative;
-    height: fit-content;
+.one {
+  grid-area: one;
+  height: 100%;
+  text-align: left;
+  height: 490px;
+  position: relative;
+  margin-top: 10px;
 }
-.two-top{
-    background-color: hsl(15, 100%, 70%);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: relative;
-    /* z-index: -1; */
-    overflow: hidden;
-    top: 10px;
-    height: 50px;
+.one-top {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: hsl(246, 80%, 60%);
+  color: white;
+  padding: 30px 40px 100px 30px;
+  position: relative;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  gap: 40px;
+  /* bottom: 100px;  */
 }
-.logo{
-    position: absolute;
-    right: 15px;
-    top: -2.5px;
+.one-below {
+  background-color: hsl(235, 46%, 20%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  gap: 15px;
+  margin-top: -10px;
+  padding: 30px 20px 30px 20px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* width: fit-content; */
 }
-.ellipsis{
-    width: 12px;
-    height: 3px;
+.one-below a {
+  text-decoration: none;
+  color: hsl(236, 100%, 87%);
 }
-.two-below{
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    z-index: -1;
-    height: 130px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-    /* align-items: center; */
+#weekly {
+  color: white;
 }
-.top{
-    display: flex;
-    justify-content: space-between;
-}
-.top h4{
-    font-weight: 400;
-    font-size: 18px;
-}
-.timedate{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.timedate h1{
-    font-weight: 500;
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
-
-.three{
-    grid-area: three;
-    position: relative;
-    height: fit-content;
+.two {
+  grid-area: two;
+  /* position: relative; */
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.three-top{
-    background-color: hsl(195, 74%, 62%);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: relative;
-    /* z-index: -1; */
-    overflow: hidden;
-    top: 10px;
-    height: 50px;
-}
-.three-below{
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    z-index: -1;
-    height: 130px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+.two-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(15, 100%, 70%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* border-bottom: 10px red; */
+  /* position: relative; */
+  /* z-index: 1; */
+  overflow: hidden;
+  top: 10px;
+  height: 50px;
 }
 
-
-.four{
-    grid-area: four;
-    position: relative;
-    height: fit-content;
+.logo {
+  right: 15px;
+  top: -2.5px;
+  /* z-index: 1  ; */
+  /* background: red; */
 }
-.four-top{
-    background-color: hsl(348, 100%, 68%);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: relative;
-    /* z-index: -1; */
-    overflow: hidden;
-    top: 10px;
-    height: 50px;
+.ellipsis {
+  width: 12px;
+  height: 3px;
 }
-.four-below{
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    z-index: -1;
-    height: 130px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+.below {
+  background-color: hsl(235, 46%, 20%);
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  gap: 15px;
+  padding: 20px;
+  margin-top: -15px;
+  z-index: 10;
+  /* bottom: -60px; */
+  height: 130px;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  /* align-items: center; */
 }
-
-
-.five{
-    grid-area: five;
+.top {
+  display: flex;
+  justify-content: space-between;
+  border: 20px;
 }
-.five-top{
-    background-color: hsl(145, 58%, 55%);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: relative;
-    /* z-index: -1; */
-    overflow: hidden;
-    top: 10px;
-    height: 50px;
+.top h4 {
+  font-weight: 400;
+  font-size: 18px;
 }
-.five-below{
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    z-index: -1;
-    height: 130px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+.timedate {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.timedate h1 {
+  font-weight: 500;
 }
 
-
-.six{
-    grid-area: six;
-    position: relative;
-    height: fit-content;
+.three {
+  grid-area: three;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.six-top{
-    background-color: hsl(264, 64%, 52%);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: relative;
-    /* z-index: -1; */
-    overflow: hidden;
-    top: 10px;
-    height: 50px;
-}
-.six-below{
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    z-index: -1;
-    height: 130px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+.three-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(195, 74%, 62%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* position: relative; */
+  /* z-index: -1; */
+  overflow: hidden;
+  top: 10px;
+  height: 50px;
 }
 
-.seven{
-    grid-area: seven;
-    position: relative;
-    height: fit-content;
+.four {
+  grid-area: four;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.seven-top{
-    background-color: hsl(43, 84%, 65%);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: relative;
-    /* z-index: -1; */
-    overflow: hidden;
-    top: 10px;
-    height: 50px;
+.four-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(348, 100%, 68%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* position: relative; */
+  /* z-index: -1; */
+  overflow: hidden;
+  top: 10px;
+  height: 50px;
 }
-.seven-below{
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    z-index: -1;
-    height: 130px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+
+.five {
+  grid-area: five;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.five-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(145, 58%, 55%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* position: relative; */
+  /* z-index: -1; */
+  overflow: hidden;
+  top: 10px;
+  height: 50px;
+}
+
+.six {
+  grid-area: six;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.six-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(264, 64%, 52%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* position: relative; */
+  /* z-index: -1; */
+  overflow: hidden;
+  top: 10px;
+  height: 50px;
+}
+
+.seven {
+  grid-area: seven;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.seven-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(43, 84%, 65%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* position: relative; */
+  /* z-index: -1; */
+  overflow: hidden;
+  top: 10px;
+  height: 50px;
 }
